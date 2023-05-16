@@ -1,7 +1,8 @@
 //////////////////////////////////////////////////////////////////////////////
 // vim:set shiftwidth=3 softtabstop=3 expandtab:
 // Module: ids_sim.v
-// Project: NF2.1
+// Project: 
+// Engineer : Darshan Dyamavvanahalli Rudreshi 
 // Description: Defines a simple ids module for the user data path.  The
 // modules reads a 64-bit register that contains a pattern to match and
 // counts how many packets match.  The register contents are 7 bytes of
