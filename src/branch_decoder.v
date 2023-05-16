@@ -1,3 +1,23 @@
+//////////////////////////////////////////////////////////////////////////////////
+// Company: 
+// Engineer: Darshan Dyamavvanahalli Rudreshi
+// 
+// Create Date:    21:49:16 02/14/2023 
+// Design Name: 
+// Module Name:    ALU 
+// Project Name: 
+// Target Devices: 
+// Tool versions: 
+// Description: 
+//
+// Dependencies: 
+//
+// Revision: 
+// Revision 0.01 - File Created
+// Additional Comments: 
+//
+//////////////////////////////////////////////////////////////////////////////////
+
 module branch_decoder(input [8:0]pc_mem, rs2_resolved_mem,
                       input [2:0]branch_funct3_mem,
                       input beq, blt, bne, bgr,
