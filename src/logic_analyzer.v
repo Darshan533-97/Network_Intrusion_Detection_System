@@ -1,3 +1,23 @@
+//////////////////////////////////////////////////////////////////////////////////
+// Company: 
+// Engineer: Darshan Dyamavvanahalli Rudreshi
+// 
+// Create Date:    21:49:16 02/14/2023 
+// Design Name: 
+// Module Name:    ALU 
+// Project Name: 
+// Target Devices: 
+// Tool versions: 
+// Description: 
+//
+// Dependencies: 
+//
+// Revision: 
+// Revision 0.01 - File Created
+// Additional Comments: 
+//
+//////////////////////////////////////////////////////////////////////////////////
+
 module logic_analyzer(input clk,  input [31:0] logic_anylz_cmd,
                       logic_anylz_addr, input [255:0] pipeline_data,
                       input grant_in, grant_out, lock_in, lock_out, 
