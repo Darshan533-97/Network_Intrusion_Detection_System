@@ -1,7 +1,7 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
 // Company: 
-// Engineer: 
+// Engineer: Darshan Dyamavvanahalli Rudreshi
 // 
 // Create Date:    21:49:16 02/14/2023 
 // Design Name: 
