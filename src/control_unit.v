@@ -1,3 +1,23 @@
+//////////////////////////////////////////////////////////////////////////////////
+// Company: 
+// Engineer: Darshan Dyamavvanahalli Rudreshi
+// 
+// Create Date:    21:49:16 02/14/2023 
+// Design Name: 
+// Module Name:    ALU 
+// Project Name: 
+// Target Devices: 
+// Tool versions: 
+// Description: 
+//
+// Dependencies: 
+//
+// Revision: 
+// Revision 0.01 - File Created
+// Additional Comments: 
+//
+//////////////////////////////////////////////////////////////////////////////////
+
 module control_unit(input [6:0] opcode, funct7,
         //            input [5:0] thread_logic_in, //new
           //          output reg [1:0] thread_sel_in, thread_mux_sel_in, thread_fixed_in,
