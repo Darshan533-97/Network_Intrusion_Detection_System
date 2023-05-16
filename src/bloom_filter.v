@@ -1,4 +1,22 @@
-
+//////////////////////////////////////////////////////////////////////////////////
+// Company: 
+// Engineer: Darshan Dyamavvanahalli Rudreshi
+// 
+// Create Date:    21:49:16 02/14/2023 
+// Design Name: 
+// Module Name:    ALU 
+// Project Name: 
+// Target Devices: 
+// Tool versions: 
+// Description: 
+//
+// Dependencies: 
+//
+// Revision: 
+// Revision 0.01 - File Created
+// Additional Comments: 
+//
+//////////////////////////////////////////////////////////////////////////////////
 
 module bloom_filter( input [63:0] in_data, bloom_array_reg,
                      input [7:0] in_ctrl,
