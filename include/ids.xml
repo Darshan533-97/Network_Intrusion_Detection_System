@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nf:module xmlns:nf="http://www.NetFPGA.org/NF2_register_system" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.NetFPGA.org/NF2_register_system NF2_register_system.xsd ">
+	<nf:name>ids</nf:name>
+	<nf:prefix>ids</nf:prefix>
+	<nf:location>udp</nf:location>
+	<nf:description>Registers for IDS</nf:description>
+	<nf:blocksize>64</nf:blocksize>
+	<nf:registers>
+		<nf:register>
+		  <nf:name>bloom_pattern_low</nf:name>
+			<nf:description>Upper 32 bits of Pattern</nf:description>
+			<nf:type>generic_software32</nf:type>
+		</nf:register>
+		<nf:register>
+		  <nf:name>bloom_pattern_high</nf:name>
+			<nf:description>Upper 32 bits of Pattern</nf:description>
+			<nf:type>generic_software32</nf:type>
+		</nf:register>
+		<nf:register>
+		  <nf:name>logic_anylz_addr</nf:name>
+			<nf:description>Upper 32 bits of Pattern</nf:description>
+			<nf:type>generic_software32</nf:type>
+		</nf:register>
+        	<nf:register>
+		  <nf:name>inst_pc_rst_proccesdone1</nf:name>
+			<nf:description>Match Count Register</nf:description>
+			<nf:type>generic_hardware32</nf:type>
+		</nf:register>
+		<nf:register>
+		  <nf:name>rdwr_ptrs_inout_ctrls1</nf:name>
+			<nf:description>Match Count Register</nf:description>
+			<nf:type>generic_hardware32</nf:type>
+		</nf:register>
+		<nf:register>
+		  <nf:name>fifo_out11</nf:name>
+			<nf:description>Match Count Register</nf:description>
+			<nf:type>generic_hardware32</nf:type>
+		</nf:register>
+		<nf:register>
+		  <nf:name>fifo_out21</nf:name>
+			<nf:description>Match Count Register</nf:description>
+			<nf:type>generic_hardware32</nf:type>
+		</nf:register>
+		<nf:register>
+		  <nf:name>in_data11</nf:name>
+			<nf:description>Match Count Register</nf:description>
+			<nf:type>generic_hardware32</nf:type>
+		</nf:register>
+		<nf:register>
+		  <nf:name>in_data21</nf:name>
+			<nf:description>Match Count Register</nf:description>
+			<nf:type>generic_hardware32</nf:type>
+		</nf:register>
+        	<nf:register>
+		  <nf:name>inst_pc_rst_proccesdone0</nf:name>
+			<nf:description>Match Count Register</nf:description>
+			<nf:type>generic_hardware32</nf:type>
+		</nf:register>
+		<nf:register>
+		  <nf:name>rdwr_ptrs_inout_ctrls0</nf:name>
+			<nf:description>Match Count Register</nf:description>
+			<nf:type>generic_hardware32</nf:type>
+		</nf:register>
+		<nf:register>
+		  <nf:name>fifo_out10</nf:name>
+			<nf:description>Match Count Register</nf:description>
+			<nf:type>generic_hardware32</nf:type>
+		</nf:register>
+		<nf:register>
+		  <nf:name>fifo_out20</nf:name>
+			<nf:description>Match Count Register</nf:description>
+			<nf:type>generic_hardware32</nf:type>
+		</nf:register>
+		<nf:register>
+		  <nf:name>in_data10</nf:name>
+			<nf:description>Match Count Register</nf:description>
+			<nf:type>generic_hardware32</nf:type>
+		</nf:register>
+		<nf:register>
+		  <nf:name>in_data20</nf:name>
+			<nf:description>Match Count Register</nf:description>
+			<nf:type>generic_hardware32</nf:type>
+		</nf:register>
+		<nf:register>
+		  <nf:name>bloom_match_count</nf:name>
+			<nf:description>Match Count Register</nf:description>
+			<nf:type>generic_hardware32</nf:type>
+		</nf:register>
+	</nf:registers>
+</nf:module>
+
